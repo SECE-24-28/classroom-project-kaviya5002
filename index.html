@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaviya A K | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Reset and Fonts */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { background: #f0f4f8; color: #1f2937; line-height: 1.6; }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #6b5b95, #b8a9c9);
+            color: white;
+        }
+        header h1 { font-size: 3rem; margin-bottom: 10px; }
+        header p { font-size: 1.1rem; margin: 5px 0; }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #6b5b95;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        nav a:hover { color: #f97316; }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #ffffffcc;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #6b5b95;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .content { display: flex; flex-direction: column; gap: 15px; }
+        .card { background: #e0f2fe; padding: 15px; border-radius: 12px; transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); background: #bae6fd; }
+
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+        .skill { background: #fcd34d; color: #1f2937; padding: 8px 15px; border-radius: 20px; font-weight: 600; }
+
+        footer { text-align: center; padding: 20px; background: #6b5b95; color: white; }
+        footer a { color: #fbbf24; text-decoration: none; margin: 0 10px; font-weight: 600; }
+
+        a { color: #1e3a8a; text-decoration: none; }
+        a:hover { color: #f97316; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kaviya A K</h1>
+        <p>B.Tech - AI & DS | GPA: 8.1 (upto 2nd semester) | 2024-2025</p>
+        <p>Phone: +91 9894613123 | Email: kaviya.ak2024aids@sece.ac.in</p>
+        <p>
+            <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+        </p>
+    </header>
+
+    <nav>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#coding">Coding Profiles</a>
+        <a href="#skills">Technical Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="content">
+            <div class="card">
+                <strong>B.Tech - AI & DS</strong> <br>
+                Sri Eshwar College of Engineering | GPA: 8.1 | 2024-2025
+            </div>
+            <div class="card">
+                <strong>HSC</strong> <br>
+                Amrita Vidyalayam | 86% | 2021-2022
+            </div>
+            <div class="card">
+                <strong>SSLC</strong> <br>
+                Amrita Vidyalayam | 72.4% | 2019-2020
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="content">
+            <div class="card">
+                <strong>Skill-Swap Collaboration Platform</strong> <br>
+                Developed a full-stack web platform enabling users to exchange skills seamlessly. Built secure authentication, skill-posting modules, and real-time updates. Designed an intuitive UI to enhance collaboration.
+            </div>
+            <div class="card">
+                <strong>Vendor Marketplace Platform</strong> <br>
+                Built a vendor marketplace connecting sellers and customers. Implemented product listing, vendor approval workflows, secure order handling, and responsive UI components.
+            </div>
+            <div class="card">
+                <strong>Transaction Fraud Detection System</strong> <br>
+                Developed a machine learning system to detect fraudulent transactions. Used Random Forest and Logistic Regression. Implemented real-time prediction for secure financial processing.
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="content">
+            <div class="card">Mastering Data Structure & Algorithms using C and C++ (Udemy) - In Progress</div>
+            <div class="card">Python for Data Science, AI & Development (Coursera)</div>
+            <div class="card">C Certification (SoloLearn)</div>
+            <div class="card">Infosys Springboard Cloud Computing (Coursera)</div>
+            <div class="card">Introduction to AI (Coursera)</div>
+        </div>
+    </section>
+
+    <section id="coding">
+        <h2>Coding Profiles</h2>
+        <div class="content">
+            <div class="card"><strong>LeetCode:</strong> Profile Link</div>
+            <div class="card"><strong>HackerRank:</strong> 4 Star Python | Profile Link</div>
+            <div class="card"><strong>Skillrack:</strong> Solved 1000+ Problems | Profile Link</div>
+            <div class="card"><strong>CodeChef:</strong> Profile Link</div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <div class="skill">C</div>
+            <div class="skill">C++</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">DSA</div>
+            <div class="skill">OOPS</div>
+            <div class="skill">DBMS</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Jupyter Notebook</div>
+            <div class="skill">VS Code</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">Canva</div>
+            <div class="skill">Figma</div>
+            <div class="skill">IntelliJ</div>
+            <div class="skill">MySQL Workbench</div>
+            <div class="skill">Git</div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="content">
+            <div class="card">Participated in Asthra 2k25 Paper Presentation at Karpagam Institute of Technology, 2025</div>
+            <div class="card">Participated in Freshathon 2025</div>
+            <div class="card">Participated in Creatathon 2025</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p class="content">
+            Feel free to reach out via email or phone. Connect with me on 
+            <a href="#">LinkedIn</a> or view my work on 
+            <a href="#">GitHub</a>.
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2025 Kaviya A K | Connect: 
+        <a href="#">LinkedIn</a> | 
+        <a href="#">GitHub</a>
+    </footer>
+
+</body>
+</html>
+
+<iframe
+    src="https://www.chatbase.co/chatbot-iframe/enfbJ8kv9RMiO8dQRyMGI"
+    width="100%"
+    style="height: 100%; min-height: 700px"
+    frameborder="0"
+></iframe>
